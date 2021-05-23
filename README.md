@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    Arquitetura para a consulta em diversas fontes de dados e por meio de menssageria os dados são no MongoDB, a arquitetura pode ser dimensionado dinâmicamente com Kubernetes.
+    Arquitetura para a consulta em diversas fontes de dados e por meio de menssageria, os dados são persistidos em um Banco de dados não relacional, neste caso, o MongoDB, a arquitetura pode ser dimensionado dinâmicamente com Kubernetes.
 </p>
 
 <div alling="center">
