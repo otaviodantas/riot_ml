@@ -6,7 +6,7 @@ load_dotenv()
 
 class DeliveryMan:
     def __init__(self):
-        self._connection = BlockingConnection(ConnectionParameters(os.environ.get('MSG_ADRESS')))
+        self._connection = BlockingConnection(ConnectionParameters(os.environ.get('RABBIT_MQ_ADD')))
         self._channel = self._connection.channel()
         self.queue = None
     
