@@ -1,4 +1,4 @@
-from send import DeliveryMan
+from .send import DeliveryMan
 from flask import Flask
 from flask.json import jsonify
 

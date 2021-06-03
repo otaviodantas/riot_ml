@@ -1,10 +1,10 @@
-from handle_env import load
+from dotenv import load_dotenv
 
 import os
 import requests
 from typing import Dict, List
 
-load()
+load_dotenv()
 
 class RiotAPI(object):
     HEADER = {'X-Riot-Token': os.environ.get('API_KEY')}

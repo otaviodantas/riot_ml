@@ -1,5 +1,5 @@
 import os
-from handle_env import load
+from .handle_env import load
 from pika import BlockingConnection, ConnectionParameters
 
 load()
